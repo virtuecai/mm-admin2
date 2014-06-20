@@ -1,0 +1,37 @@
+application.login.nameOrPassword.invalid=用户名或密码错误
+application.logout.flash.success=您已成功退出
+
+login.views.title=登陆
+
+invalid.user.name.password=用户名或密码错误
+login.again=请重新登录
+register.again=请重新注册
+agree.not.choosed=请点击“同意《注册协议》和《版权声明》”后再继续操作
+exists.user.name=用户已经存在
+error.user.email=请确认您的邮箱
+not.exists.user.name=用户不存在
+not.bind.email=请您先绑定邮箱
+passwds.not.same=密码不一致
+mail.retrieve.pwd.subject={0}，您申请了重设登录密码
+mail.retrieve.pwd.htmlbody=<html><p>亲爱的<a href="http://www.xyige.com/">下一个</a>用户，您好:</p><p>这是一封帮助您重置下一个密码的系统邮件。若您在回收站看见此邮件，请把邮件地址添加到"白名单"中。</p><p>请点下面的链接，打开重设密码的页面，根据提示重设密码（30分钟内有效）<p><p><a  href="{1}">{2}</a></p><p>（如果上面不是链接形式，请将该地址手工粘贴到浏览器地址栏再访问）</p></html>
+
+error.date=请输入正确的日期格式
+error.required=请完善该字段.
+error.number=请填写数字.
+error.unique.uri=地址已经存在.
+error.min=必须大于或等于 {0}
+error.min.strict=必须大于 {0}
+error.max=必须小于或等于 {0}
+error.max.strict=必须小于 {0}
+error.minLength=请输入长度大于 {0} 的值
+error.maxLength=请输入长度小于 {0} 的值
+error.constraint=只能删除没有依赖的纪录.
+error.unique=该{0}已经存在
+error.maxBytesLength=请输入字节数小于 {0} 的值 (每个汉字等于两个字节)
+error.real.precision=请输入长度小于{0}的数字（包括{1}位小数但不包括小数点）
+
+error.sql.exception=请先删除关联数据
+error.unknown=内部错误，请联系管理员
+
+error.path.missing=请完善该字段
+

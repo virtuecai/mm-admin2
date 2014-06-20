@@ -1,0 +1,21 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Main page
+GET           /                                        yun.mm.admin.controllers.Application.index(path="")
+
+# Authentication
+POST          /login                                   yun.mm.admin.controllers.Application.authenticate
+POST          /logout                                  yun.mm.admin.controllers.Application.logout
+GET           /currentstaff                            yun.mm.admin.controllers.Application.currentStaff
+
+# common
+->            /common                                  common.controllers.Routes
+
+# Map static resources from the /public folder to the /assets URL path
+GET           /webjars/*file                           controllers.WebJarAssets.at(file)
+GET           /assets/*file                            com.ee.assets.controllers.Assets.at(path="/public", file)
+GET           /views/*file                             controllers.Assets.at(path="/public/app", file)
+
+GET           /*path                                   yun.mm.admin.controllers.Application.index(path)
